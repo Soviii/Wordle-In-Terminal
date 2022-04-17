@@ -1,5 +1,5 @@
 #  Wordle in Terminal
-
+![Screenshot](/images/WordleScreenshot.png)
 # About 
 This game imitates the notorious word-guessing game - **Wordle**. While it is obviously not 
 a 1-on-1 copy, it was a fun project to do for learning Python and creating my first game with. 
