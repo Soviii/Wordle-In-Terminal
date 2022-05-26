@@ -30,7 +30,7 @@ def cleanWord(word):
 
     return word
 
-"""Better way of reading a file (automatically closes it"""
+"""Better way of reading a file (automatically closes it)"""
 with open ('file.txt') as f:
     for line in f:
         wordBank.append(line.lower()[:-1]) #[:-1] deletes last char which is \n
@@ -163,7 +163,6 @@ def main(stdscr):
                     
                     else:
                         status.clear()
-                        #print word,have to find out why it's still invalid
                         status.addstr(f"invalid word - {wordCopy}")
                         status.refresh()
                         
@@ -204,7 +203,7 @@ def main(stdscr):
     win6 = curses.newwin(1, 12, 13, 1)
     win7 = curses.newwin(1, 20, 15, 1)
     
-
+#                      Main Driver
 #--------------------------------------------------------#
     chosenWord = chooseWord(fiveCharWords)
     winner = False
